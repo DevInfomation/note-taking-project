@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/note-taking.css">
+    <title>Note Taking</title>
+</head>
+<body>
+    <main id="main">
+        <h1>Note Taker</h1>
+        <h2>Add A New Note:</h2>
+        
+        <div class="main-note-here">
+            <label class="label-note">Note:</label>
+            <textarea name="text" class="note-area" id="textarea-note" cols="50" rows="3" placeholder="Enter note here..."></textarea>
+            <button type="submit" class="btn" id="add-note-btn">Add Note</button>
+        </div>
+        <div class="posted-notes-here">
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="text-from-notes"></p>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="../js/note-taking.js"></script>
+</body>
+</html>

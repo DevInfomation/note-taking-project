@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    --primary-colour: #36b146;
+    --secondary-colour: #047bfb;
+
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    color: var(--primary-colour);
+}
+
+.main-note-here {
+    margin: auto;
+    width: 20%;
+}
+
+.label-note {
+    font-size: 21px;
+}
+
+.note-area {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    resize: vertical;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: var(--primary-colour);
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.posted-notes-here {
+    display: flex;
+    margin: auto;
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+.created-note {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    margin-right: 100px;
+    margin-top: 80px;
+    width: 478px;
+    height: 140px;
+}
+
+.shorten-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.delete-note {
+    cursor: pointer;
+    font-size: 18px;
+    color: #ff0000;
+    text-align: right;
+    margin-left: 390px;
+}
+
+.blue-btn {
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: var(--secondary-colour);
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.inside-note-div {
+    display: flex;
+}
+
+.increment-number {
+    font-size: 21px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
